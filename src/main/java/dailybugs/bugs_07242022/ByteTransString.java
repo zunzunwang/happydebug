@@ -13,9 +13,6 @@ public class ByteTransString {
         byte[] bytesUTF16 = str.getBytes(StandardCharsets.UTF_16);
         String decodeBytesUTF8 = new String(bytesUTF8);
         String decodeBytesUTF16 = new String(bytesUTF16, StandardCharsets.UTF_16);
-
-
-
     }
 }
 
